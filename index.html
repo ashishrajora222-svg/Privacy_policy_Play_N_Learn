@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Privacy Policy - Play N Learn</title>
+  <meta name="description" content="Privacy Policy for the Play N Learn Android application, complying with Google Play Families Policy and COPPA.">
+  <style>
+    :root {
+      --primary: #2563eb;
+      --primary-dark: #1d4ed8;
+      --primary-light: #eff6ff;
+      --text-main: #1e293b;
+      --text-muted: #64748b;
+      --bg-page: #f8fafc;
+      --bg-card: #ffffff;
+      --border-color: #e2e8f0;
+      --accent-green: #10b981;
+      --accent-green-bg: #ecfdf5;
+      --accent-purple: #8b5cf6;
+    }
+
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+      line-height: 1.65;
+      color: var(--text-main);
+      background-color: var(--bg-page);
+      padding: 24px 16px;
+    }
+
+    .container {
+      max-width: 820px;
+      margin: 0 auto;
+      background: var(--bg-card);
+      border-radius: 16px;
+      box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.05), 0 2px 4px -1px rgba(0, 0, 0, 0.03);
+      border: 1px solid var(--border-color);
+      overflow: hidden;
+    }
+
+    .header {
+      background: linear-gradient(135deg, #1e3a8a 0%, #2563eb 100%);
+      color: #ffffff;
+      padding: 40px 32px;
+      text-align: left;
+    }
+
+    .badge-row {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+      margin-bottom: 16px;
+    }
+
+    .badge {
+      display: inline-block;
+      font-size: 12px;
+      font-weight: 600;
+      letter-spacing: 0.03em;
+      text-transform: uppercase;
+      padding: 4px 10px;
+      border-radius: 9999px;
+      background: rgba(255, 255, 255, 0.2);
+      color: #ffffff;
+    }
+
+    .badge-highlight {
+      background: #38bdf8;
+      color: #0f172a;
+    }
+
+    .header h1 {
+      font-size: 28px;
+      font-weight: 800;
+      margin-bottom: 8px;
+      letter-spacing: -0.02em;
+    }
+
+    .header p {
+      font-size: 15px;
+      opacity: 0.9;
+    }
+
+    .meta-card {
+      background-color: #f1f5f9;
+      border-left: 4px solid var(--primary);
+      padding: 16px 20px;
+      margin: 24px 32px 0 32px;
+      border-radius: 8px;
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+      gap: 12px;
+      font-size: 14px;
+    }
+
+    .meta-card div strong {
+      display: block;
+      color: var(--text-muted);
+      font-size: 12px;
+      text-transform: uppercase;
+      letter-spacing: 0.04em;
+      margin-bottom: 2px;
+    }
+
+    .meta-card div span {
+      color: var(--text-main);
+      font-weight: 600;
+    }
+
+    .content {
+      padding: 32px;
+    }
+
+    .summary-box {
+      background-color: var(--accent-green-bg);
+      border: 1px solid #a7f3d0;
+      border-radius: 12px;
+      padding: 20px;
+      margin-bottom: 32px;
+    }
+
+    .summary-box h3 {
+      color: #065f46;
+      font-size: 16px;
+      font-weight: 700;
+      margin-bottom: 8px;
+      display: flex;
+      align-items: center;
+      gap: 8px;
+    }
+
+    .summary-box ul {
+      margin-left: 20px;
+      color: #047857;
+      font-size: 14px;
+    }
+
+    .summary-box ul li {
+      margin-bottom: 6px;
+    }
+
+    h2 {
+      font-size: 20px;
+      font-weight: 700;
+      color: #0f172a;
+      margin-top: 36px;
+      margin-bottom: 14px;
+      padding-bottom: 8px;
+      border-bottom: 1px solid var(--border-color);
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .section-num {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      width: 28px;
+      height: 28px;
+      border-radius: 50%;
+      background-color: var(--primary-light);
+      color: var(--primary);
+      font-size: 13px;
+      font-weight: 700;
+      flex-shrink: 0;
+    }
+
+    p {
+      margin-bottom: 16px;
+      font-size: 15px;
+      color: #334155;
+    }
+
+    ul, ol {
+      margin-left: 24px;
+      margin-bottom: 16px;
+      color: #334155;
+      font-size: 15px;
+    }
+
+    li {
+      margin-bottom: 8px;
+    }
+
+    strong {
+      color: #0f172a;
+    }
+
+    .table-container {
+      overflow-x: auto;
+      margin: 16px 0 24px 0;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      font-size: 14px;
+      text-align: left;
+    }
+
+    th {
+      background-color: #f8fafc;
+      color: #475569;
+      font-weight: 600;
+      padding: 10px 12px;
+      border: 1px solid var(--border-color);
+    }
+
+    td {
+      padding: 10px 12px;
+      border: 1px solid var(--border-color);
+      color: #334155;
+    }
+
+    tr:nth-child(even) {
+      background-color: #fcfcfd;
+    }
+
+    .contact-box {
+      background-color: #f8fafc;
+      border: 1px solid var(--border-color);
+      border-radius: 12px;
+      padding: 24px;
+      margin-top: 24px;
+    }
+
+    .contact-box a {
+      color: var(--primary);
+      text-decoration: none;
+      font-weight: 600;
+    }
+
+    .contact-box a:hover {
+      text-decoration: underline;
+    }
+
+    .footer {
+      background-color: #f8fafc;
+      border-top: 1px solid var(--border-color);
+      padding: 20px 32px;
+      text-align: center;
+      font-size: 13px;
+      color: var(--text-muted);
+    }
+
+    @media (max-width: 600px) {
+      body {
+        padding: 12px 8px;
+      }
+      .header {
+        padding: 28px 20px;
+      }
+      .content {
+        padding: 20px 16px;
+      }
+      .meta-card {
+        margin: 16px 16px 0 16px;
+        grid-template-columns: 1fr;
+      }
+      .header h1 {
+        font-size: 24px;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <header class="header">
+      <div class="badge-row">
+        <span class="badge badge-highlight">Google Play Compliant</span>
+        <span class="badge">COPPA & Families Policy</span>
+        <span class="badge">Data Safety</span>
+      </div>
+      <h1>Privacy Policy for Play N Learn</h1>
+      <p>Transparent information on data practices, children's privacy, and user rights.</p>
+    </header>
+
+    <div class="meta-card">
+      <div>
+        <strong>App Name</strong>
+        <span>Play N Learn</span>
+      </div>
+      <div>
+        <strong>Package Name</strong>
+        <span>com.aistudio.tinytots.kxqyuv</span>
+      </div>
+      <div>
+        <strong>Target Audience</strong>
+        <span>Children & Families (Toddlers & Preschool)</span>
+      </div>
+      <div>
+        <strong>Developer Contact</strong>
+        <span>ashish.rajora222@gmail.com</span>
+      </div>
+      <div>
+        <strong>Effective Date</strong>
+        <span>September 15, 2026</span>
+      </div>
+      <div>
+        <strong>Last Updated</strong>
+        <span>September 15, 2026</span>
+      </div>
+    </div>
+
+    <main class="content">
+
+      <div class="summary-box">
+        <h3>🛡️ Quick Privacy Summary</h3>
+        <ul>
+          <li><strong>Zero Personal Data Collected:</strong> We do not collect, request, store, or transmit any personally identifiable information (PII) such as names, email addresses, phone numbers, or photos.</li>
+          <li><strong>Kid-Safe & Family-Oriented:</strong> Fully compliant with the Children's Online Privacy Protection Act (COPPA), General Data Protection Regulation (GDPR/GDPR-K), and the Google Play Families Policy.</li>
+          <li><strong>Offline-First & Local Storage:</strong> Game progress, stars, scores, and difficulty settings are stored 100% locally on your device and are never sent to external servers.</li>
+          <li><strong>No Personalized Ads:</strong> We do not conduct behavioral advertising, user tracking, or profiling.</li>
+        </ul>
+      </div>
+
+      <h2><span class="section-num">1</span> Introduction</h2>
+      <p>
+        Welcome to <strong>Play N Learn</strong> ("we", "our", or "the app"), an early childhood educational mobile application designed to assist toddlers and young children in learning colors, shapes, matching, and problem-solving through interactive mini-games.
+      </p>
+      <p>
+        We are deeply committed to protecting the privacy of young users and providing peace of mind to parents and legal guardians. This Privacy Policy details how the app handles information, adheres to child privacy regulations, and maintains compliance with the Google Play Developer Program Policies.
+      </p>
+
+      <h2><span class="section-num">2</span> Children's Privacy (COPPA & Google Play Families Policy)</h2>
+      <p>
+        Because <strong>Play N Learn</strong> is designed for children, safeguarding their privacy is our highest priority. We comply strictly with the <strong>Children's Online Privacy Protection Act (COPPA)</strong>, <strong>GDPR-K</strong>, and <strong>Google Play Families Policy</strong>:
+      </p>
+      <ul>
+        <li><strong>No Personal Information Requested:</strong> The app does not require account creation, logins, user profiles, or any forms asking for children's names, birthdates, addresses, or phone numbers.</li>
+        <li><strong>No Public Sharing:</strong> There are no chat rooms, social networking features, leaderboards with public handles, or capabilities for children to share text, photos, or voice recordings.</li>
+        <li><strong>No Tracking or Profiling:</strong> We do not collect persistent identifiers to build behavioral profiles of child users.</li>
+        <li><strong>Parental Inquiries:</strong> If a parent or guardian believes their child has somehow provided personal information to us, they can contact us immediately at <a href="mailto:ashish.rajora222@gmail.com">ashish.rajora222@gmail.com</a>, and we will promptly ensure it is erased.</li>
+      </ul>
+
+      <h2><span class="section-num">3</span> Information Collection & Google Play Data Safety</h2>
+      <p>
+        Below is an explicit breakdown of our data practices aligned with the <strong>Google Play Data Safety</strong> disclosure:
+      </p>
+
+      <div class="table-container">
+        <table>
+          <thead>
+            <tr>
+              <th>Data Category</th>
+              <th>Collected?</th>
+              <th>Shared with 3rd Parties?</th>
+              <th>Purpose & Details</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td><strong>Personal Information</strong> (Name, Email, Phone)</td>
+              <td>No</td>
+              <td>No</td>
+              <td>Never collected or requested.</td>
+            </tr>
+            <tr>
+              <td><strong>Location Data</strong> (Precise or Coarse)</td>
+              <td>No</td>
+              <td>No</td>
+              <td>Location access is neither requested nor used.</td>
+            </tr>
+            <tr>
+              <td><strong>Photos, Videos, Audio</strong></td>
+              <td>No</td>
+              <td>No</td>
+              <td>Camera and microphone permissions are not accessed.</td>
+            </tr>
+            <tr>
+              <td><strong>Financial & Payment Data</strong></td>
+              <td>No</td>
+              <td>No</td>
+              <td>The app does not collect financial or payment details.</td>
+            </tr>
+            <tr>
+              <td><strong>Game Progress & Preferences</strong></td>
+              <td>Stored Locally Only</td>
+              <td>No</td>
+              <td>Stars, completed levels, sound volume, and language choices remain strictly on the device.</td>
+            </tr>
+            <tr>
+              <td><strong>Technical / Diagnostic Data</strong></td>
+              <td>Anonymous Only</td>
+              <td>Google Play / Firebase (if crash occurs)</td>
+              <td>Standard Android OS crash logs or platform metrics for stability and bug fixes. No personal identifiers attached.</td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+
+      <h2><span class="section-num">4</span> Local Data Storage & Offline Operation</h2>
+      <p>
+        The educational activities and games in <strong>Play N Learn</strong> run locally on your Android device. Any state saved by the app (such as level completions, audio toggles, high scores, or preferred game modes) is managed using Android's built-in isolated sandbox storage (e.g., Room database / SharedPreferences).
+      </p>
+      <p>
+        This data belongs entirely to the user, stays within the device, and can be cleared at any time via Android system settings.
+      </p>
+
+      <h2><span class="section-num">5</span> Device Permissions Explained</h2>
+      <p>
+        <strong>Play N Learn</strong> operates with minimal permissions. It only requests the bare minimum necessary for platform operation:
+      </p>
+      <ul>
+        <li><code>INTERNET</code> & <code>ACCESS_NETWORK_STATE</code>: Declared for standard Google Play platform compatibility and basic connectivity checks. No personal user data is ever transmitted.</li>
+        <li><strong>No Dangerous Runtime Permissions:</strong> The app does not request sensitive permissions such as <code>ACCESS_FINE_LOCATION</code>, <code>CAMERA</code>, <code>RECORD_AUDIO</code>, <code>READ_CONTACTS</code>, or broad storage access.</li>
+      </ul>
+
+      <h2><span class="section-num">6</span> Third-Party Services & SDKs</h2>
+      <p>
+        The app utilizes trusted, standard platform services provided by Google. These service providers handle data according to their own privacy standards and comply with child-directed policies:
+      </p>
+      <ul>
+        <li><strong>Google Play Services:</strong> Used for app distribution, updates, and core Android platform libraries. See <a href="https://policies.google.com/privacy" target="_blank" rel="noopener noreferrer">Google Privacy Policy</a>.</li>
+        <li><strong>Firebase / Crashlytics (Platform Utilities):</strong> If enabled, used purely for crash diagnostics, performance monitoring, and app stability without collecting user identities.</li>
+      </ul>
+
+      <h2><span class="section-num">7</span> Advertising Policy</h2>
+      <p>
+        In strict adherence to the Google Play Families Policy:
+      </p>
+      <ul>
+        <li>We do <strong>not</strong> serve personalized, behavioral, or interest-based advertising to children.</li>
+        <li>We do <strong>not</strong> track user behavior across other apps or websites.</li>
+        <li>Any educational content or updates presented comply fully with COPPA and age-appropriate guidelines.</li>
+      </ul>
+
+      <h2><span class="section-num">8</span> Data Retention & User Rights (Right to Delete)</h2>
+      <p>
+        Because we do not store personal information on remote servers, there is no remote account or database record to purge.
+      </p>
+      <p>
+        Parents and users retain complete control over all game data stored on the device. To erase all data:
+      </p>
+      <ol>
+        <li>Open device <strong>Settings</strong> &gt; <strong>Apps &amp; Notifications</strong> &gt; <strong>Play N Learn</strong>.</li>
+        <li>Select <strong>Storage &amp; Cache</strong>.</li>
+        <li>Tap <strong>Clear Storage</strong> (or <strong>Clear Data</strong>).</li>
+        <li>Alternatively, uninstalling the application completely deletes all locally stored data.</li>
+      </ol>
+
+      <h2><span class="section-num">9</span> Changes to This Privacy Policy</h2>
+      <p>
+        We may periodically update this Privacy Policy to reflect app enhancements, platform updates, or changes in legal requirements. Whenever modifications are made, the "Last Updated" date at the top of this page will be revised. We encourage parents to periodically review this page.
+      </p>
+
+      <h2><span class="section-num">10</span> Contact Us</h2>
+      <p>
+        If you have any questions, concerns, or requests regarding this Privacy Policy, your child's privacy, or the practices of this application, please reach out to us:
+      </p>
+
+      <div class="contact-box">
+        <p><strong>Developer:</strong> Play N Learn Team</p>
+        <p><strong>Contact Email:</strong> <a href="mailto:ashish.rajora222@gmail.com">ashish.rajora222@gmail.com</a></p>
+        <p><strong>Application:</strong> Play N Learn (<code>com.aistudio.tinytots.kxqyuv</code>)</p>
+      </div>
+
+    </main>
+
+    <footer class="footer">
+      <p>&copy; 2026 Play N Learn. All rights reserved. Compliant with Google Play Developer Policies.</p>
+    </footer>
+  </div>
+
+</body>
+</html>
